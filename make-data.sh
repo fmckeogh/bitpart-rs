@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 SEED=3132448493
 
 cargo build --release -p generators
