@@ -6,10 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = { version = "4.1.8", features = ["derive"] }
+clap = { version = "4.4.3", features = ["derive"] }
 sisap-data = { path = "../sisap-data" }
 bitpart = { path = "../" }
 rayon = "1.7.0"
-serde_json = "1.0.94"
-indicatif = { version = "0.17.3", features = ["rayon"] }
-anyhow = "1.0.69"
+serde_json = "1.0.107"
+indicatif = { version = "0.17.6", features = ["rayon"] }
+anyhow = "1.0.75"
